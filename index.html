@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Dashboard Design #1 | ITENAS</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_itenas_copy.jpg">
+                    <h2>ITE<span class="danger">NAS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <!-- Nilai Section -->
+            <div class="nilaiMahasiswa">
+                <h1>Nilai Mahasiswa</h1>
+                <div class="nilai">
+                    <div class="Analyse">
+
+                    </div>
+                    <div class="tbNilai">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nomor</th>
+                                    <th>Kode</th>
+                                    <th>Matakuliah</th>
+                                    <th>SKS</th>
+                                    <th>Semester</th>
+                                    <th>Nilai</th>
+                                    <th>Bobot</th>
+                                    <th>NxK</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <td>1</td>
+                                <td>IFB-201</td>
+                                <td>Jaringan Komputer</td>
+                                <td>4</td>
+                                <td>2022/2</td>
+                                <td id="index">A</td>
+                                <td>4</td>
+                                <td>16</td>
+                                <td>Diterima</td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- End Nilai Section -->
+
+            <!-- Data Mahasiswa -->
+            <div class="dataMahasiswa">
+                <h1>Data Mahasiswa</h1>
+                <div class="infoMahasiswa">
+                    <h2>Mahasiswa</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="ket"><span>Nama</span> <span>:</span>
+                                </th>
+                                <td>tegar</td>
+                            </tr>
+                            <tr>
+                                <th id="ket"><span>NRP</span> <span>:</span></th>
+                                <td>152021169</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="infoOrangTua">
+                    <h2>Orang Tua</h2>
+                    <a href="">Nama Ortu</a>
+                </div>
+            </div>
+            <!-- End Data Mahasiswa -->
+
+            <!-- Keuangan Mahasiswa -->
+            <div class="keuanganMahasiswa">
+                <h1>Keuangan Mahasiswa</h1>
+                <div class="keuangan">
+                    <h2>Kewajiban</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="ket"><span>UKT (Uang Kuliah Tetap)</span> <span>:</span></th>
+                                <td>Rp.5000.000</td>
+                            </tr>
+                            <tr>
+                                <th id="ket"><span>UKV (Uang Kuliah Variabel)</span><span>:</span></th>
+                                <td>Rp.4500.000</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="rekap">
+                    <h2>Rekapitulasi</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Keterangan</th>
+                                <th>Nilai (RP)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Keterangan 1</td>
+                                <td>Rp. 100.000</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Keterangan 2</td>
+                                <td>Rp. 150.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+            </div>
+            <!-- End Keuangan Mahasiswa -->
+        </main>
+        <!-- End of Main Content -->
+
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Reza</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>ITENAS</h2>
+                    <p>Fullstack Web Developer</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Reminder</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End of Right Section -->
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
